@@ -1,2 +1,2 @@
-# learn-openai-agent-sdk
+# Learn Openai Agent Sdk
 Repository to learn OpenAI's Agent sdk
