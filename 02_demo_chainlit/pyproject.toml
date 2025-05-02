@@ -1,0 +1,21 @@
+[project]
+name = "demo-chainlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zeeshanhanif", email = "zeeshanhanif@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "fastapi>=0.115.12",
+]
+
+[project.scripts]
+app = "demo_chainlit:main"
+chatbot = "demo_chainlit.chatbot:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
